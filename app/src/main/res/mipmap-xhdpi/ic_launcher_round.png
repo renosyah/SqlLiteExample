@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bad68ca-cd70-4a0f-bdf4-b4b41472d45c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_lobby.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_lobby.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="82b2ca70" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/ui/activity/MainLobbyActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2522">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lobby.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="8177">
+              <caret line="481" column="47" selection-start-line="481" selection-start-column="47" selection-end-line="481" selection-end-column="47" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>player</find>
+      <find>24sp</find>
+      <find>android:layout_margin=&quot;20dp&quot;</find>
+      <find>leaving</find>
+      <find>adapterShop</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>18sp</replace>
+      <replace>android:layout_margin=&quot;10dp&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/ui/activity/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/model/player/AllPlayerModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/model/card/CardModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/model/card/AllCardModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/model/room/AllRoomModel.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_room.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/model/player/AllPlayerWithCardsModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/model/player/PlayerModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/model/player/PlayerWithCardsModel.kt" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/proto/debug/grpc/cardBattle/cardBattleServiceGrpc.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_register.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/ui/dialog/DialogRegisterPlayer.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_room.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/ui/activity/RoomActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/adapter_player.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/adapter/AdapterPlayer.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/adapter_room.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/adapter/AdapterRoom.kt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/adapter_card.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/model/card/CardModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/adapter/AdapterCard.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/ui/dialog/DialogCardInfo.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_card_info.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/model/playerWithCard/PlayerWithCardsModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/model/room/RoomDataModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syahputrareno975/simplecardbattle/model/ModelCasting.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_
