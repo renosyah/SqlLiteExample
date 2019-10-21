@@ -34,23 +34,6 @@ abstract class AppUserDatabase : RoomDatabase() {
                 return instance
             }
         }
-
-        fun getDatabase(ctx : Context) : AppUserDatabase {
-            val tempInstance = INSTANCE
-            if (tempInstance != null){
-                return  tempInstance
-            }
-            synchronized(this){
-                val instance = Room.databaseBuilder(
-                    ctx.applicationContext,
-                    AppUserDatabase::class.java,
-                    "user"
-                ).build()
-
-                INSTANCE = instance
-                return instance
-            }
-        }
     }
 
     private class AppUserDatabaseCallback(private val scope: CoroutineScope) : RoomDatabase.Callback() {
