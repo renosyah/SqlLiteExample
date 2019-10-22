@@ -17,8 +17,19 @@ class UserModel{
     @ColumnInfo(name = "phone_number")
     var PhoneNumber: String = ""
 
+    // only one primary constructor
+    // added secondary constructor
+    // will error the kotlin kapt
     constructor(Name: String, PhoneNumber: String) {
         this.Name = Name
         this.PhoneNumber = PhoneNumber
+    }
+
+    companion object {
+        fun newUser(Uid: Int, Name: String, PhoneNumber: String) : UserModel {
+            val u = UserModel(Name,PhoneNumber)
+            u.Uid = Uid
+            return u
+        }
     }
 }

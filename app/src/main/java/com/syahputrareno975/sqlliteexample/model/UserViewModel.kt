@@ -11,23 +11,27 @@ import kotlinx.coroutines.launch
 class UserViewModel(aplication : Application) : AndroidViewModel(aplication){
     private val repository : UserRepository
 
-    // add more crud
-    val allUser : LiveData<List<UserModel>>
-
     init {
         val userDao = AppUserDatabase.getDatabase(aplication,viewModelScope).userDao()
         repository = UserRepository(userDao)
-
-        // add more crud
-        allUser = repository.allUser
     }
 
-
-    fun insert(user : UserModel) = viewModelScope.launch {
-        repository.insert(user)
+    fun getAllUser() : LiveData<List<UserModel>>{
+        return repository.getAll()
     }
-
+    fun getAllByName(nm : String) : LiveData<List<UserModel>>{
+        return repository.getAllByName(nm)
+    }
+    fun getOne(id : Int) : LiveData<UserModel>{
+        return repository.getOne(id)
+    }
+    fun add(user : UserModel) = viewModelScope.launch {
+        repository.add(user)
+    }
     fun delete(user : UserModel) = viewModelScope.launch {
         repository.delete(user)
+    }
+    fun update(user : UserModel) = viewModelScope.launch {
+        repository.update(user)
     }
 }

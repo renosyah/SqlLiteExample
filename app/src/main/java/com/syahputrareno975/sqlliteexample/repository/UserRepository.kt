@@ -6,15 +6,28 @@ import com.syahputrareno975.sqlliteexample.model.UserModel
 
 class UserRepository(private val userDao: UserDao) {
 
-    // add more crud
-    val allUser : LiveData<List<UserModel>> = userDao.getAll()
 
+    fun getAll() : LiveData<List<UserModel>> {
+       return userDao.getAll()
+    }
 
-    suspend fun insert(user : UserModel){
-        userDao.insertAll(user)
+    fun getAllByName(nm : String) : LiveData<List<UserModel>> {
+        return userDao.getAllByName(nm)
+    }
+
+    fun getOne(id : Int) : LiveData<UserModel> {
+        return userDao.getOne(id)
+    }
+
+    suspend fun add(user : UserModel){
+        userDao.add(user)
     }
 
     suspend fun delete(user : UserModel){
         userDao.delete(user)
+    }
+
+    suspend fun update(user : UserModel){
+        userDao.update(user)
     }
 }

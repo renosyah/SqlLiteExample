@@ -52,9 +52,9 @@ abstract class AppUserDatabase : RoomDatabase() {
             }
         }
         suspend fun populateDatabase(userDao: UserDao) {
-            userDao.insertAll(UserModel(Name = "reno",PhoneNumber = "08123113131"))
-            userDao.insertAll(UserModel(Name = "reno",PhoneNumber = "08335343234"))
-            userDao.insertAll(UserModel(Name = "reno",PhoneNumber = "08156564335"))
+            userDao.add(UserModel(Name = "reno",PhoneNumber = "08123113131"))
+            userDao.add(UserModel(Name = "reno",PhoneNumber = "08335343234"))
+            userDao.add(UserModel(Name = "reno",PhoneNumber = "08156564335"))
         }
     }
 }
